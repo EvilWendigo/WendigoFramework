@@ -11,6 +11,7 @@ while True:
     console = input("> ")
     if console == "1":
         print("enable monitor mode: Y/N")
+        print("has to be typed and in uper case exemple: Y")
         mon = input("> ")
         if mon == "Y":
             os.system("sudo airmon-ng start wlan0")
